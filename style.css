@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #fff0f6, #f0f9ff);
+  color: #444;
+  text-align: center;
+}
+
+.header {
+  background: #ffd6e8;
+  padding: 20px;
+  border-bottom: 4px dashed #ff9acb;
+}
+
+.header h1 {
+  margin: 0;
+  color: #c94f7c;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #7a3b5e;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff5fa2;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05) rotate(1deg);
+}
+
+.content {
+  padding: 40px;
+  font-size: 1.1rem;
+}
+
+.email {
+  color: #ff5fa2;
+  font-weight: bold;
+}
+
+footer {
+  background: #ffe6f2;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
